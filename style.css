@@ -1,0 +1,61 @@
+a.nav-link.active:hover{
+color: #ffc107;
+}
+img.img-fluid{
+    width: 100%;
+}
+body{
+    background-color: black;
+}
+div.row{
+    align-items: center;
+}
+div.contact
+{
+    background-image: url(./image/fitzone-bg.png);
+}
+
+.sport{
+    height: 85vh;
+    background-image: url(./image/fitzone-background.png) !important;
+    background-size: cover;
+    background-position: center;
+    background-clip: border-box;
+    background-repeat: no-repeat;
+}
+
+.space{
+    background-image: url(./image/cta-background.jpg) !important;
+    background-size: cover;
+    background-position: center;
+    background-clip: border-box;
+    background-repeat: no-repeat;
+    height: 75vh;
+}
+.meuf{
+    height: 45vh;
+}
+
+.form-custom{
+    margin-left: -15%;
+}
+
+@media (max-width: 992px) {
+    .form-custom{
+        margin-left: 0;
+    }
+
+    .space{
+        background-position: left;
+    }
+    .contactposition-relativemy-5#contact{
+        height: 60%;
+    }
+    p.p-5m-5borderborder-warningborder-3{
+        position: relative;
+    }
+    .col-md-5bg-darkposition-absolutestart-50h-100#form{
+        position: absolute;
+        bottom: 80%;
+    }
+ }
